@@ -1,0 +1,520 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+/******colors**********/
+:root{
+    --prim-color:blue;
+    --sec-color:yellow;
+}
+
+.header{
+   background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url('images/bitcoin\ photo.webp');
+   background-size: cover;
+}
+
+.nav{
+    padding: 30px 0;
+    display: flex;
+    margin: 0 300px;
+}
+
+.nav-brand-link{
+    text-decoration: none;
+}
+
+.nav-container{
+    display: flex;
+
+    
+}
+
+.nav-brand{
+    
+    
+}
+
+.nav-brand-name{
+    color: #fff;
+}
+
+.nav-logo{
+     width: 70px;
+    height: 70px;
+    vertical-align: middle;
+
+}
+
+.nav-items{
+   text-decoration: none;
+   color: #fff;
+
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    margin-left: 280px;
+}
+
+/***************hero starts***************/
+.hero{
+    padding: 100px 0;
+    margin: 0 200px;
+}
+
+.hero-container{
+    display: flex;
+}
+.hero-texts{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.hero-prim-header{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.hero-sec-header{
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.l-btn{
+    margin-right: 10px;
+    padding: 16px 40px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.r-btn{
+    margin-right: 10px;
+    padding: 16px 30px;
+    background-color:rgb(25, 18, 18);
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid#fff;
+}
+
+.hero-image{
+    
+}
+
+.hero-img{
+width: 500px;
+height:550px;
+object-fit: cover;
+margin-left: 50px;
+}
+
+/**********why invest with us*********/
+
+.reason-section{
+padding: 180px;
+}
+
+.reason-container{
+    
+}
+.reason-group-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reason-prim-header-1{
+    margin-bottom: 20px;
+    color: rgb(27, 27, 151);
+    font-size: 40px;
+}
+
+.reason-sec-header-1{
+    width: 800px;
+    margin: 0 150px;
+}
+
+.reasons{
+    text-align: center;
+    box-shadow: 1px 0px 5px gainsboro;
+    padding: 50px;
+}
+
+.group-reason{
+    display: flex;
+    gap: 40px;
+}
+
+.reason-icon{
+    
+}
+
+.reason-prim-header-2{
+margin-bottom: 20px;
+
+}
+
+.reason-sec-header-2{
+    text-align: center;
+}
+
+/********about us*********/
+
+.about-section{
+    padding: 100px 0;
+    background-color: rgb(21, 21, 110);
+}
+
+.about-container{
+    display: flex;
+    margin: 0 200px;
+    
+}
+
+.about-image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 100px;
+    box-shadow: 0px 2px 5px rgb(7, 7, 131);
+    padding: 30px;
+
+}
+
+.about-prim-header{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.about-text{
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.about-header{
+
+}
+
+.about-btn{
+    border-radius: 10px;
+    background-color: rgb(181, 181, 26);
+    color: darkslategrey;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.about-lorem{
+    margin-bottom: 30px;
+}
+
+/************plan starts**************/
+.plan-section{
+    padding: 100px 0;
+
+}
+
+.plan-container{
+   font-size: 20px;
+   
+}
+
+.plan-header{
+    margin: 0 460px;
+    margin-bottom: 150px;
+    
+}
+
+.plan-prim-header{
+    margin-left: 100px;
+
+}
+
+.plan-sec-header{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.plan-footer{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url('images/bitcoin\ photo.webp');
+    background-size: cover;
+    padding: 90px 0;
+    background-position: right;
+}
+
+.plan-body{
+    margin: 0 250px;
+    
+}
+
+.plan-body-header{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.plan-body-text{
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.plan-btn{
+    border-radius: 8px;
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: rgb(209, 209, 36);
+    color: rgb(57, 66, 41);
+}
+/*********approach start************/
+.approach-section{
+    padding: 100px;
+}
+
+.approach-container{
+   
+}
+
+.approach-prim-header{
+    margin-bottom: 10px;
+    color: rgb(24, 24, 139);
+}
+
+.approach-sec-header{
+    padding: 0 252px;
+}
+
+.approach-header{
+   text-align: center;
+    font-size: 24px;
+}
+
+.appraoch-chart{
+    margin: 0 250px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.approach-one{
+    position: absolute;
+    top: 50px;
+    
+}
+
+.approach-two{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.approach-three{
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
+
+.approach-four{
+    position: absolute;
+    top: 300px;
+    
+}
+
+.approach-five{
+    position: absolute;
+    top: 550px;
+    right: 50px;
+}
+
+.group-approach{
+    padding: 8px 8px;
+    box-shadow: 1px 1px 2px gainsboro;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+
+/*********get started starts*********/
+.how-section{
+    padding: 100px;
+    background-color: rgb(22, 22, 162);
+}
+
+.how-container{
+    text-align: center;
+    
+}
+
+.how-card-container{
+    display: flex;
+    gap: 20px;
+}
+
+.how-header{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.how-card{
+    border: 1px solid gainsboro;
+    padding: 80px 0;
+    border-radius: 8px;
+    color: rgb(66, 83, 38);
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.how-icons{
+
+}
+
+.card-header{
+    margin-bottom: 20px;
+}
+
+.how-text{
+    
+}
+
+.how-btn{
+    padding: 13px 20px;
+    background-color: rgb(245, 245, 15);
+    text-decoration: none;
+    border-radius: 8px;
+}
+/**********sponsors*******/
+.sponsor-section{
+    padding: 100px;
+}
+
+.sponsor-container{
+
+}
+
+.sponsor-prim-header{
+    color: rgb(21, 21, 128);
+}
+
+.sponsor-header{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+.sponsors{
+    display: flex;
+    margin: 0 180px;
+    gap: 50px;
+}
+
+.sponsors-icon{
+    width: 200px;
+}
+/**********review**********/
+.review-section{
+    padding: 100px;
+}
+
+.review-container{
+    padding: 100px;
+}
+
+.review-header{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+.reviews-card{
+    text-align: center;
+    box-shadow: 1px 0px 5px gainsboro;
+    padding: 60px;
+    font-size: 18px;
+}
+
+.review-card-container{
+    display: flex;
+    gap: 30px;
+}
+
+.review-prim-header{
+    margin-bottom: 20px;
+    color: rgb(36, 36, 152);
+}
+
+.review-icons{
+
+}
+
+.review-texts{
+    text-align: center;
+}
+
+.reiview-image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(62, 8, 62);
+}
+
+.reviewer-name{
+    margin-bottom: 10px;
+}
+
+.reviewer{
+
+}
+
+/*********footer**********/
+.footer{
+    padding: 100px;
+    background-color: rgb(55, 55, 204);
+}
+
+.footer-image{
+    width: 50px;
+    vertical-align: middle;
+}
+.footer-brand-group{
+    display: flex;
+}
+.footer-container{
+    display: flex;
+    margin: 0 100px;
+    color: #fff;
+}
+.footer-brands{
+   width: 280px; 
+   margin-right: 20px;
+}
+.contact-us{
+    
+}
+.footer-links{
+    margin-right: 150px;
+    margin-left: 50px;
+}
+.follow-us{
+
+}
+
+.copyright{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
